@@ -1,0 +1,93 @@
+.Messages
+	display: flex
+	flex-direction: column
+
+	> * + *
+		margin-top: 12px
+
+.Messages__box
+	padding: 12px
+	margin:
+		left: -12px
+		top: -12px
+	display: flex
+	flex-wrap: wrap
+
+	> *
+		margin:
+			top: 12px
+			left: 12px
+
+.Messages__singleText
+	white-space: pre
+	width: 100%
+
+.Messages__textArea
+	width: 100%
+	resize: none
+	white-space: pre
+
+.Messages__single
+	max-width: 400px
+	border-radius: 4px
+	padding: 12px
+	border: 1px solid #413e3e
+
+	> * + *
+		margin-top: 8px
+
+.Messages__singleButtons
+	display: flex
+	min-width: max-content
+
+	> *
+		flex: 1
+
+	> * + *
+		margin-left: 12px
+
+.Messages__singleEdit,
+.Messages__singleDelete,
+.Messages__singleSend
+	flex: 1 auto
+	border-radius: 2px
+	padding: 4px 8px
+	color: white
+	cursor: pointer
+
+	&._disabled
+		background-color: #bebdbd
+		cursor: default
+
+.Messages__singleEdit
+	background-color: #6363e5
+
+.Messages__singleDelete
+	background-color: #ce7878
+
+.Messages__singleSend
+	background-color: #5e9d5e
+
+.Messages__tabsBox
+	display: flex
+	flex: 0 auto
+	margin:
+		top: 12px
+		left: 12px
+		bottom: 12px
+
+	> * + *
+		margin-left: 12px
+
+.Messages__tab
+	border-radius: 2px
+	padding: 4px 8px
+	cursor: pointer
+
+	&._active
+		background-color: #6363e5
+		color: white
+
+.Messages__emptyList
+	margin:
+		left: 12px
