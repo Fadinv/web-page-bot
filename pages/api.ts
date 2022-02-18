@@ -34,7 +34,7 @@ export const fetch_updateMessage = async (id: number, ruText: string, engText: s
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -48,7 +48,7 @@ export const fetch_deleteMessage = async (id: number) => {
 			deleteMessage(id: ${id})
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -71,7 +71,7 @@ export const fetch_sendMessage = async (id: number, canBeSend: boolean = true) =
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -94,7 +94,7 @@ export const fetch_getMessages = async () => {
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -117,7 +117,7 @@ export const fetch_deleteSendChat = async (tgChatId: string) => {
 			deleteSendChat (tgChatId: "${tgChatId}")
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -138,7 +138,7 @@ export const fetch_createSendChat = async (tgChatId: string) => {
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -159,7 +159,7 @@ export const fetch_getSendChats = async () => {
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -182,7 +182,7 @@ export const fetch_updateSendImmediately = async (sendImmediately: boolean) => {
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
@@ -200,7 +200,7 @@ export const fetch_userSettings = async () => {
 			}
 		}`,
 	});
-	const {data} = await fetch('http://127.0.0.1:2000/graphql', {
+	const {data} = await fetch('http://81.163.26.147:2000/graphql', {
 		method: 'POST',
 		headers: {'Content-Type': 'application/json;charset=utf-8'},
 		body,
