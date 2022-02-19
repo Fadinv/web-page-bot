@@ -1,4 +1,4 @@
-const apiUrl =  'http://81.163.26.147:2000';
+const apiUrl =  'https://81.163.26.147:2000';
 const schemeUrl = apiUrl + '/graphql';
 
 const toJson = (res: Response) => res.json();
