@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="583d65e3-671d-448e-8ea3-c2cd7d6dd51a" name="Changes" comment="create app with default exports">
+    <list default="true" id="583d65e3-671d-448e-8ea3-c2cd7d6dd51a" name="Changes" comment="changed api url">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api.ts" afterDir="false" />
     </list>
@@ -48,7 +48,7 @@
       <updated>1644668581218</updated>
       <workItem from="1644668585467" duration="5000" />
       <workItem from="1644775011668" duration="1293000" />
-      <workItem from="1645190208495" duration="2474000" />
+      <workItem from="1645190208495" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <created>1644775067832</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645282822508</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed api url">
+      <created>1645283040703</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645283040703</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="changed api.ts" />
     <MESSAGE value="create app with default exports" />
-    <option name="LAST_COMMIT_MESSAGE" value="create app with default exports" />
+    <MESSAGE value="changed api url" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed api url" />
   </component>
 </project>
