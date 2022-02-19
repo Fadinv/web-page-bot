@@ -16,7 +16,7 @@ interface MessagesState {
 	engText: string | null
 }
 
-export class Messages extends PureComponent<unknown, MessagesState> {
+export default class Messages extends PureComponent<unknown, MessagesState> {
 	private readonly _tabs = ['Ждут обработки', 'Отправленные', 'В очереди на отправление']
 
 	constructor(props: unknown) {

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="583d65e3-671d-448e-8ea3-c2cd7d6dd51a" name="Changes" comment="changed api.ts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Messages/Messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Messages/Messages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Tabs/SendChats.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Tabs/SendChats.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <updated>1644668581218</updated>
       <workItem from="1644668585467" duration="5000" />
       <workItem from="1644775011668" duration="1293000" />
-      <workItem from="1645190208495" duration="1633000" />
+      <workItem from="1645190208495" duration="2039000" />
     </task>
     <task id="LOCAL-00001" summary="created">
       <created>1644775067832</created>
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645190844565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed api.ts">
+      <created>1645282181328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645282181328</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

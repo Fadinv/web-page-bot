@@ -1,8 +1,8 @@
 import styles from './index.module.sass'
 import type {NextPage} from 'next';
 import {useState} from 'react';
-import {Messages} from './Messages/Messages';
-import {SendChats} from './Tabs/SendChats';
+import Messages from './Messages/Messages';
+import SendChats from './Tabs/SendChats';
 
 const Home: NextPage = () => {
 	const [tab, setTab] = useState<'messages' | 'chats'>('messages');

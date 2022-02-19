@@ -15,7 +15,7 @@ interface SendChatsState {
 	};
 }
 
-export class SendChats extends PureComponent<unknown, SendChatsState> {
+export default class SendChats extends PureComponent<unknown, SendChatsState> {
 	private _chats: GetSendChatsResponse['getSendChats'] | null = null;
 	private _mounted = false;
 
