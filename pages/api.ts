@@ -26,7 +26,7 @@ export interface GetMessagesResponse {
 export const fetch_updateMessage = async (id: number, ruText: string, engText: string) => {
 	const body: BodyInit = JSON.stringify({
 		query: `mutation {
-			updateMessage(id: ${id}, ruText: "${ruText.replace('\n', '\\n')}", engText: "${engText.replace('\n', '\\n')}") {
+			updateMessage(id: ${id}, ruText: "${ruText}", engText: "${engText}") {
 				id
 				ruText
 			    engText
